@@ -1,0 +1,42 @@
+
+  .thumbnail {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  .video-title {
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  .video-author {
+    font-family: "Roboto", sans-serif;
+    font-size: 12px;
+  }
+  .video-description {
+    font-family: "Roboto", sans-serif;
+    font-size: 12px;
+  }
+
+  .profile-picture {
+    width: 40px;
+    border-radius: 50px;
+  }
+  .pfp {
+    width: 40px;
+    border-radius: 50px;
+  }
+  .video-info-grid {
+    display: grid;
+    grid-template-columns: 50px 1fr;
+  }
+  .video-grid-info1 {
+    display: grid;
+    grid-template-columns: 50px 1fr;
+  }
+  .video-grid-preview {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 20px;
+    row-gap: 40px;
+  }
