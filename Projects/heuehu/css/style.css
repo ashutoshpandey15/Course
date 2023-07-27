@@ -1,0 +1,165 @@
+body {
+  margin: 0px;
+  text-align: center;
+  font-family: "Merriweather", serif;
+  color: #40514e;
+  background-color: #ffffff;
+}
+h1 {
+  margin: 50px auto 0 auto;
+  font-family: "Sacramento", cursive;
+  font-size: 90px;
+  color: #11999e;
+}
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  font-weight: normal;
+  color: #11999e;
+}
+.First-name {
+  color: rgba(255, 255, 255, 1);
+  text-align: center;
+  padding-top: 200px;
+  animation: glow 1.5s ease-in-out infinite alternate;
+  margin: 0;
+}
+
+@keyframes glow {
+  from {
+    text-shadow: 0 0 0px #fff, 0 0 2px #fff, 0 0 4px #0073e6, 0 0 6px #0073e6,
+      0 0 8px #0073e6, 0 0 10px #0073e6, 0 0 12px #0073e6;
+  }
+  to {
+    text-shadow: 0 0 2px #fff, 0 0 4px #fff, 0 0 6px #0073e6, 0 0 8px #0073e6,
+      0 0 10px #0073e6, 0 0 12px #0073e6, 0 0 14px #0073e6;
+  }
+}
+.fix-stroke {
+  paint-order: stroke fill;
+}
+.Last-name {
+  color: rgba(255, 255, 255, 1);
+  text-align: center;
+  font-weight: bold;
+  margin: 0;
+}
+h3 {
+  font-family: "Montserrat", sans-serif;
+  color: #11999e;
+}
+.top-section {
+  padding-top: 100px;
+  position: relative;
+  background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/aaf81395-be06-40b7-97c4-768ffd068a75/dd3g4az-93a5b5cf-1375-45f4-a114-64c8a198f6bd.jpg/v1/fill/w_1099,h_727,q_70,strp/rgb_keyboard__6_7__by_legorj35_dd3g4az-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MzI2NCIsInBhdGgiOiJcL2ZcL2FhZjgxMzk1LWJlMDYtNDBiNy05N2M0LTc2OGZmZDA2OGE3NVwvZGQzZzRhei05M2E1YjVjZi0xMzc1LTQ1ZjQtYTExNC02NGM4YTE5OGY2YmQuanBnIiwid2lkdGgiOiI8PTQ5MjgifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.patiPRFXqswOmeeelHRUIvJgGevPxVgmYHVDnFxiULc");
+  width: 100%;
+  margin: 0;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+}
+
+.middle-container {
+  margin: 100px 0 100px 0;
+}
+.bottom-container {
+  background-color: #66bfbf;
+  padding: 50px 0 20px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 450px;
+  top: 50px;
+}
+.bottom-cloud {
+  position: absolute;
+  left: 450px;
+  bottom: 300px;
+}
+p {
+  line-height: 2;
+}
+hr {
+  border: dotted grey;
+  border-bottom: none;
+  margin: 50px auto 50px auto;
+  width: 4%;
+}
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+
+.my-skills {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+.chilli {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+.profile-picture {
+  width: 15%;
+  border-radius: 50%;
+}
+.intro-bois {
+  width: 30%;
+  margin: auto;
+}
+
+.contact-message {
+  width: 40%;
+  margin: 40px auto 40px auto;
+}
+
+.btn {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #1199e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #1199e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #1199e);
+  background-image: -o-linear-gradient(top, #11cdd4, #1199e);
+  background-image: linear-gradient(to bottom, #11cdd4, #1199e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: "Montserrat", sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
+
+a {
+  color: #11999e;
+  font-family: "Montserrat", sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+a:hover {
+  color: #eaf6f6;
+}
+
+.copyright {
+  color: #eaf6f6;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+
+.background-image {
+  width: 10px;
+  height: 10px;
+}
